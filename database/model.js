@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const todoSchema = new mongoose.Schema({
   content: String,
   done: Boolean,
-  priority: Number,
+  priority: String,
   notes: String,
   date: String
 })
